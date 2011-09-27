@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var FeedHook = require('../lib/feed').FeedHook;
+
+var hook = new FeedHook({ 
+  name: "the-feed-hook",
+  debug: true
+});
+
+hook.start();
