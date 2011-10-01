@@ -1,0 +1,27 @@
+{
+  "author": "Marak Squires <marak.squires@gmail.com>",
+  "name": "hook.io-feed",
+  "description": "a Hook for creating consumable RSS, JSON, ATOM feeds",
+  "version": "0.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hookio/feed.git"
+  },
+  "contributors": [
+    {
+      "name" : "Pavan Kumar Sunkara",
+      "email" : "pavan.sss1991@gmail.com"
+    }
+  ],
+  "bin": {
+    "hookio-feed": "./bin/feed"
+  },
+  "main": "lib/feed",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io": "0.7.x"
+  },
+  "devDependencies": {}
+}
