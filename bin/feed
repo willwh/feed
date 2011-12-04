@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 
+<<<<<<< HEAD
 var FeedHook = require('../lib/pub').FeedHook;
+=======
+var FeedHook = require('../lib/feed').FeedHook;
+>>>>>>> 8a9f3407d63678678bfa4884d3883d224243e7bf
 
 var hook = new FeedHook({ 
   name: "the-feed-hook",
